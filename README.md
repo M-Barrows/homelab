@@ -8,7 +8,7 @@
  ~ _Where the error codes are made up and uptime doesn't matter_ ~ 
 
 There are many like it but this home lab is YOURS! Go ahead, break production. 
-Who's going to be upset, your boss? Oh wait, in your home lab, that's you! ¯\_(ツ)_/¯
+Who's going to be upset, your boss? Oh wait, in your home lab, that's you! ¯\\_(ツ)_/¯
 
 Starting a home lab can feel daunting but it doesn't have to be. Especially with 
 the rise in popularity of containerized applications, you can host several services 
