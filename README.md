@@ -1,10 +1,11 @@
->    __  __                                    __             __  
->   / / / /  ____    ____ ___   ___           / /   ____ _   / /_ 
->  / /_/ /  / __ \  / __ `__ \ / _ \         / /   / __ `/  / __ \
-> / __  /  / /_/ / / / / / / //  __/        / /___/ /_/ /  / /_/ /
->/_/ /_/   \____/ /_/ /_/ /_/ \___/        /_____/\__,_/  /_.___/ 
-
-~ **Where the error codes are made up and uptime doesn't matter** ~
+```
+    _   _
+   / / / /  ____    ____ ___   ___           / /   ____ _   / /_
+  / /_/ /  / __ \  / __ `__ \ / _ \         / /   / __ `/  / __ \
+ / __  /  / /_/ / / / / / / //  __/        / /___/ /_/ /  / /_/ /
+/_/ /_/   \____/ /_/ /_/ /_/ \___/        /_____/\__,_/  /_.___/
+```
+ ~ _Where the error codes are made up and uptime doesn't matter_ ~ 
 
 There are many like it but this home lab is YOURS! Go ahead, break production. 
 Who's going to be upset, your boss? Oh wait, in your home lab, that's you! ¯\_(ツ)_/¯
