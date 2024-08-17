@@ -1,7 +1,7 @@
 resource "proxmox_vm_qemu" "this" {
   name        = var.host_name
   target_node = var.target_node
-  agent       = 0
+  agent       = 1
   memory      = var.memory
   tags        = "iac,terraform,ansible"
   ipconfig0   = "ip=${var.ipaddr},gw=${var.gw}"
