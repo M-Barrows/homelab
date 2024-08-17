@@ -4,6 +4,15 @@ variable "PM_API_TOKEN_ID" {
 variable "PM_API_TOKEN_SECRET" {
   type = string
 }
+variable "target_node" {
+  type = string
+}
+variable "host_name" {
+  type = string
+}
+variable "base_template" {
+  type = string
+}
 variable "memory" {
   type    = number
   default = 1028
@@ -20,20 +29,11 @@ variable "gw" {
   type    = string
   default = "192.168.1.1"
 }
-variable "sshkeys" {
+variable "ssh_keys" {
   type    = string
   default = ""
-}
-variable "target_node" {
-  type = string
 }
 variable "storage_size" {
   type    = string
   default = "2258M"
-}
-variable "host_name" {
-  type = string
-}
-variable "base_template" {
-  type = string
 }

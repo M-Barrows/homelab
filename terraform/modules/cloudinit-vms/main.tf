@@ -13,7 +13,8 @@ resource "proxmox_vm_qemu" "this" {
   onboot      = true
   ciuser      = "serveradmin" // needed to bind ci user from template and assign default password
   cipassword  = ""
-  sshkeys     = var.sshkeys
+  sshkeys     = var.ssh_keys
+
   network {
     bridge    = "vmbr0"
     firewall  = false
