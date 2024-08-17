@@ -5,26 +5,30 @@ variable "PM_API_TOKEN_SECRET" {
   type = string
 }
 variable "memory" {
-  type = number
+  type    = number
   default = 1028
 }
 variable "cores" {
-  type = number
+  type    = number
   default = 1
 }
 variable "ipaddr" {
-  type = string
+  type    = string
   default = "192.168.1.0/24"
 }
 variable "gw" {
-  type = string
+  type    = string
   default = "192.168.1.1"
+}
+variable "sshkeys" {
+  type    = string
+  default = ""
 }
 variable "target_node" {
   type = string
 }
 variable "storage_size" {
-  type = string
+  type    = string
   default = "2258M"
 }
 variable "host_name" {
